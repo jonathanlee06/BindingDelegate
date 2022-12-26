@@ -13,7 +13,7 @@ import com.jonathanlee.bindingdelegate.ext.viewBinding
 class FragmentActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
-    private val binding: ActivityFragmentBinding by viewBinding()
+    private val binding by viewBinding(ActivityFragmentBinding::inflate)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
