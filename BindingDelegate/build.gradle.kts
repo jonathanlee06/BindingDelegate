@@ -1,16 +1,17 @@
 plugins {
     id("com.android.library")
-    id("org.jetbrains.kotlin.android")
+    kotlin("android")
+    `maven-publish`
 }
 
 android {
     namespace = "com.jonathanlee.bindingdelegate"
-    compileSdk = 33
+    compileSdk = AndroidConfig.compileSdk
     buildFeatures.viewBinding = true
 
     defaultConfig {
-        minSdk = 21
-        targetSdk = 33
+        minSdk = AndroidConfig.minSdk
+        targetSdk = AndroidConfig.targetSdk
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
@@ -37,4 +38,17 @@ android {
 dependencies {
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.5.1")
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
+                groupId = LibraryConfig.groupId
+                artifactId = LibraryConfig.artifactId
+                version = LibraryConfig.version
+                from(components["release"])
+            }
+        }
+    }
 }

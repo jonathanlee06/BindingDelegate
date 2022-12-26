@@ -7,6 +7,12 @@ object AndroidConfig {
     const val versionName = "v1.0.0"
 }
 
+object LibraryConfig {
+    const val groupId = "com.github.jonathanlee06"
+    const val artifactId = "bindingDelegate"
+    const val version = "1.0.0"
+}
+
 object Versions {
     const val gradle = "7.3.0"
 
