@@ -183,7 +183,8 @@ for this repository. :star:
 ## :bookmark_tabs: License
 
 This project is licensed under the Apache License, Version 2.0 . See
-the [LICENSE](https://github.com/jonathanlee06/Popcorn/blob/master/LICENSE) file for more info.
+the [LICENSE](https://github.com/jonathanlee06/BindingDelegate/blob/master/LICENSE) file for more
+info.
 
 ```xml
 Designed and developed by 2022 Jonathan Lee
