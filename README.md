@@ -58,6 +58,10 @@ dependencies {
 }
 ```
 
+### 3. Enable ViewBinding
+
+https://developer.android.com/topic/libraries/view-binding#setup
+
 ## :mag_right: Usage
 
 ### 1. Activity (with reflection) [See example](https://github.com/jonathanlee06/BindingDelegate/blob/master/app/src/main/java/com/jonathanlee/bindingdelegate/demo/MainActivity.kt)
