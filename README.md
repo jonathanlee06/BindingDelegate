@@ -46,7 +46,7 @@ allprojects {
 
 ```kotlin
 dependencies {
-    implementation("com.github.jonathanlee06:BindingDelegate:1.0.2")
+    implementation("com.github.jonathanlee06:BindingDelegate:1.0.3")
 }
 ```
 
@@ -54,7 +54,7 @@ dependencies {
 
 ```gradle
 dependencies {
-    implementation 'com.github.jonathanlee06:BindingDelegate:1.0.2'
+    implementation 'com.github.jonathanlee06:BindingDelegate:1.0.3'
 }
 ```
 
