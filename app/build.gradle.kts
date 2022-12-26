@@ -47,6 +47,9 @@ kapt {
 
 dependencies {
 
+    // BindingDelegate
+    implementation("com.github.jonathanlee06:BindingDelegate:1.0.1")
+
     implementation(Libraries.coreKtx)
     implementation(Libraries.appCompat)
     implementation(Libraries.material)
