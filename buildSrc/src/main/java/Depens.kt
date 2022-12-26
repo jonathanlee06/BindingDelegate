@@ -36,7 +36,7 @@ object Libraries {
     const val gradle = "com.android.tools.build:gradle:${Versions.gradle}"
 
     // Android
-    const val appCompat = "androidx.appcompat:appcompat:1.5.1"
+    const val appCompat = "androidx.appcompat:appcompat:1.6.0-rc01"
     const val constraintLayout = "androidx.constraintlayout:constraintlayout:2.1.4"
     const val coreKtx = "androidx.core:core-ktx:1.7.0"
 
@@ -48,8 +48,6 @@ object Libraries {
         "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycle}"
     const val lifecycleRuntimeKtx =
         "androidx.lifecycle:lifecycle-runtime-ktx:${Versions.lifecycle}"
-    const val lifecycleViewModel =
-        "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycle}"
 
     // Kotlin
     const val kotlinGradlePlugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.kotlin}"
