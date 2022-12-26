@@ -48,7 +48,7 @@ kapt {
 dependencies {
 
     // BindingDelegate
-    implementation("com.github.jonathanlee06:BindingDelegate:1.0.1")
+    implementation("com.github.jonathanlee06:BindingDelegate:1.0.2")
 
     implementation(Libraries.coreKtx)
     implementation(Libraries.appCompat)
@@ -62,6 +62,8 @@ dependencies {
     implementation(Libraries.lifecycleRuntimeKtx)
     implementation(Libraries.lifecycleJava8)
     implementation(Libraries.lifecycleLiveDataKtx)
+    implementation(Libraries.navigationFragmentKtx)
+    implementation(Libraries.navigationUiKtx)
 
     // Unit test
     testImplementation(Libraries.junit)

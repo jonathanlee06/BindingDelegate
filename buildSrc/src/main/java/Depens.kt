@@ -19,6 +19,7 @@ object Versions {
     // Architectural Components
     const val activityKtx = "1.4.0"
     const val material = "1.5.0"
+    const val navigation = "2.5.2"
     const val lifecycle = "2.5.1"
 
     // Kotlin
@@ -43,6 +44,9 @@ object Libraries {
     // Architectural Components
     const val activityKtx = "androidx.activity:activity-ktx:${Versions.activityKtx}"
     const val material = "com.google.android.material:material:${Versions.material}"
+    const val navigationFragmentKtx =
+        "androidx.navigation:navigation-fragment-ktx:${Versions.navigation}"
+    const val navigationUiKtx = "androidx.navigation:navigation-ui-ktx:${Versions.navigation}"
     const val lifecycleJava8 = "androidx.lifecycle:lifecycle-common-java8:${Versions.lifecycle}"
     const val lifecycleLiveDataKtx =
         "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycle}"
