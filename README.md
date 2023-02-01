@@ -66,9 +66,6 @@ https://developer.android.com/topic/libraries/view-binding#setup
 
 ### 1. Activity (with reflection) [See example](https://github.com/jonathanlee06/BindingDelegate/blob/master/app/src/main/java/com/jonathanlee/bindingdelegate/demo/MainActivity.kt)
 
-<details>
-    <summary>Click to expand</summary>
-
 ```kotlin
 class MainActivity : AppCompatActivity() {
     private val binding: ActivityMainBinding by viewBinding()
@@ -85,13 +82,7 @@ class MainActivity : AppCompatActivity() {
 }
 ```
 
-</details>
-<br>
-
 ### 2. Activity (without reflection): Pass `::inflate` method reference [See example](https://github.com/jonathanlee06/BindingDelegate/blob/master/app/src/main/java/com/jonathanlee/bindingdelegate/demo/second/FragmentActivity.kt)
-
-<details>
-    <summary>Click to expand</summary>
 
 ```kotlin
 class FragmentActivity : AppCompatActivity() {
@@ -104,13 +95,7 @@ class FragmentActivity : AppCompatActivity() {
 }
 ```
 
-</details>
-<br>
-
 ### 3. Fragment (with reflection) [See example](https://github.com/jonathanlee06/BindingDelegate/blob/master/app/src/main/java/com/jonathanlee/bindingdelegate/demo/second/FirstFragment.kt)
-
-<details>
-    <summary>Click to expand</summary>
 
 ```kotlin
 class FirstFragment : Fragment() {
@@ -133,14 +118,7 @@ class FirstFragment : Fragment() {
 }
 ```
 
-</details>
-
-<br>
-
 ### 4. Fragment (without reflection): Pass `::bind` method reference [See example](https://github.com/jonathanlee06/BindingDelegate/blob/master/app/src/main/java/com/jonathanlee/bindingdelegate/demo/second/SecondFragment.kt)
-
-<details>
-    <summary>Click to expand</summary>
 
 ```kotlin
 class SecondFragment : Fragment(R.layout.fragment_second) {
@@ -156,9 +134,6 @@ class SecondFragment : Fragment(R.layout.fragment_second) {
     }
 }
 ```
-
-</details>
-<br>
 
 ## :notebook: Note
 
